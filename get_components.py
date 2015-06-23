@@ -23,7 +23,7 @@ ensure_dirs = [
 component_repos = [
     ('git', 'cpuvisor-srv', 'https://github.com/kencoken/cpuvisor-srv.git', 'al-integration-prep'),
     ('git', 'imsearch-tools', 'https://github.com/kencoken/imsearch-tools.git'),
-    ('git', 'medpackage', 'https://github.com/martin-xavier/medpackage.git'),
+    ('git', 'medpackage', '--branch axes-lite --single-branch https://github.com/martin-xavier/medpackage.git'),
     ('hg' , 'limas', 'https://bitbucket.org/alyr/limas'),
     ('git', 'axes-home', 'https://github.com/kevinmcguinness/axes-home.git'),
     ('git', 'axes-research', 'https://github.com/kevinmcguinness/axes-research.git'),
